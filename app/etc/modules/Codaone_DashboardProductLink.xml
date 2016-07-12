@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Codaone_DashboardProductLink>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Codaone_DashboardProductLink>
+	</modules>
+</config>

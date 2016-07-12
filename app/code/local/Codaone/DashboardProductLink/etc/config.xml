@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Codaone_DashboardProductLink>
+			<version>0.1.0</version>
+		</Codaone_DashboardProductLink>
+	</modules>
+	<adminhtml>
+		<events>
+			<adminhtml_block_html_before>
+				<observers>
+					<dashboardproductlink>
+						<class>Codaone_DashboardProductLink_Model_Observer</class>
+						<method>onBlockHtmlBefore</method>
+					</dashboardproductlink>
+				</observers>
+			</adminhtml_block_html_before>
+		</events>
+	</adminhtml>
+</config>
+
+
